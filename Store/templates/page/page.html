@@ -3,7 +3,7 @@
 {% block content %}
   {% for post in object_list %}
     <h2 style="color: white;">{{post.title}}</h2>
-    <img src="{{post.img.url}}" alt="Cars">
+    <img src="{{post.img.url}}" alt="Cars" class='responsive'>
     <h5 style="color:white">{{post.text}}</h5>
   {% endfor %}
 {% endblock %}

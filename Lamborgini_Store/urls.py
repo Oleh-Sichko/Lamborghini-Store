@@ -22,7 +22,8 @@ from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('grappelli/', include('grappelli.urls')),
-    path('', include('Store.urls'))
+    path('', include('Store.urls')),
+    path('comments/', include('Comments.urls'))
 ]
 
 if settings.DEBUG:

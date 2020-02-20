@@ -1,13 +1,59 @@
 @import url('https://fonts.googleapis.com/css?family=Lacquer&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  @media only screen and (max-width: 410px) { 
+      
+  }
+  
+
+  @media only screen and (min-width: 401px) and (max-width: 960px) {
+
+  }
+  
+
+  @media only screen and (min-width: 961px) {
+  }
+    
+.responsive{
+    width: 100%;
+    max-width: 1000px;
+    min-width: 410px;
+}
 body {
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: 2000px;
 }
 
 h1 {
-    color: rgb(0, 0, 0);
+    color: white;
     text-align: center;
+    font-family: 'Lacquer', sans-serif;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-family: 'Lacquer', sans-serif;
+}
+
+a {
+    color: white;
+    text-align: center;
+    font-family: 'Lacquer', sans-serif;
+}
+
+button {
+    font-family: 'Lacquer', sans-serif;
+}
+
+h5 {
+    color: white;
     font-family: 'Lacquer', sans-serif;
 }
 

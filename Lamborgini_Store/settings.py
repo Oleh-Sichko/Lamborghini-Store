@@ -34,7 +34,6 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'Comments',
     'grappelli',
     'Store',
     'django.contrib.admin',
@@ -62,7 +61,6 @@ TEMPLATES = [
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
             "\\My Projects with VS Code and VS\\WEB\\Lamborgini-Store\\Store\\templates",
-            "\\My Projects with VS Code and VS\\WEB\\Lamborghini-Store\\Comments\\templates",
         ],
         'APP_DIRS': True,
         'OPTIONS': {
@@ -131,7 +129,6 @@ STATIC_URL = '/static/'
 
 STATICFILES_DIRS = [
     "\\My Projects with VS Code and VS\\WEB\\Lamborgini-Store\\Store\\static",
-    "\\My Projects with VS Code and VS\\WEB\\Lamborghini-Store\\Comments\\static"
 ]
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
